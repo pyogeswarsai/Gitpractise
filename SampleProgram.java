@@ -5,6 +5,7 @@ class Main {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
+		System.out.println("The number u entered are: " + a + ", " + b);
 		if(a > b) {
 			System.out.println(a + " is big");
 		} else {
